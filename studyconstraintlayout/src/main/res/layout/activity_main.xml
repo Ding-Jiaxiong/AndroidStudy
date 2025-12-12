@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- 文本框 1：内容较短 -->
+    <TextView
+        android:id="@+id/tv_short"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:padding="8dp"
+        android:text="短文本"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 文本框 2：内容较长（动态变化时可能更宽） -->
+    <TextView
+        android:id="@+id/tv_long"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:padding="8dp"
+        android:text="这是一个很文本哇大大 大大的"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintMarginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_short" />
+
+    <!-- 屏障：跟随两个文本框的右侧边缘，动态调整位置 -->
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="end"
+        app:barrierMargin="8dp"
+        app:constraint_referenced_ids="tv_short,tv_long" />
+
+    <!-- 按钮：始终对齐屏障的右侧（即最宽文本框的右侧 + 8dp） -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮"
+        app:layout_constraintBottom_toBottomOf="@id/tv_long"
+        app:layout_constraintStart_toEndOf="@id/barrier"
+        app:layout_constraintTop_toTopOf="@id/tv_short"
+        app:layout_constraintVertical_bias="0.5" />  <!-- 按钮垂直居中 -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

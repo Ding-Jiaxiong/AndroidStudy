@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:\Develop\Gradle\gradle-8.13" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/studyabsolutelayout" />
+            <option value="$PROJECT_DIR$/studyalertdialog" />
+            <option value="$PROJECT_DIR$/studyandroidlog" />
+            <option value="$PROJECT_DIR$/studybaseadapter" />
+            <option value="$PROJECT_DIR$/studybutton" />
+            <option value="$PROJECT_DIR$/studycheckbox" />
+            <option value="$PROJECT_DIR$/studychronometer" />
+            <option value="$PROJECT_DIR$/studyconstraintlayout" />
+            <option value="$PROJECT_DIR$/studycustomview" />
+            <option value="$PROJECT_DIR$/studydatepicker" />
+            <option value="$PROJECT_DIR$/studydependenciesintro" />
+            <option value="$PROJECT_DIR$/studyedittext" />
+            <option value="$PROJECT_DIR$/studyframelayout" />
+            <option value="$PROJECT_DIR$/studyglide" />
+            <option value="$PROJECT_DIR$/studygridlayout" />
+            <option value="$PROJECT_DIR$/studyimagebutton" />
+            <option value="$PROJECT_DIR$/studyimageview" />
+            <option value="$PROJECT_DIR$/studylinearlayout" />
+            <option value="$PROJECT_DIR$/studylistview" />
+            <option value="$PROJECT_DIR$/studyprogressbar" />
+            <option value="$PROJECT_DIR$/studyradiobutton" />
+            <option value="$PROJECT_DIR$/studyratingbar" />
+            <option value="$PROJECT_DIR$/studyrelativelayout" />
+            <option value="$PROJECT_DIR$/studyrelativelayoutv2" />
+            <option value="$PROJECT_DIR$/studyseekbar" />
+            <option value="$PROJECT_DIR$/studysimpleadpter" />
+            <option value="$PROJECT_DIR$/studyspinner" />
+            <option value="$PROJECT_DIR$/studyswitch" />
+            <option value="$PROJECT_DIR$/studytablelayout" />
+            <option value="$PROJECT_DIR$/studytextview" />
+            <option value="$PROJECT_DIR$/studytimepicker" />
+            <option value="$PROJECT_DIR$/studytoast" />
+            <option value="$PROJECT_DIR$/studytogglebutton" />
+            <option value="$PROJECT_DIR$/studyview" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

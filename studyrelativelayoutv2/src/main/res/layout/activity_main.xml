@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#E3F2FD"
+        android:padding="10dp"
+        android:text="我是居中的基准控件" />
+
+    <TextView
+        android:id="@+id/tv_above"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="#FFEB3B"
+        android:padding="8dp"
+        android:text="在基准控件上方（水平居中）" />
+
+    <TextView
+        android:id="@+id/tv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@id/tv_center"
+        android:background="#FFEB3B"
+        android:padding="8dp"
+        android:text="基准控件左侧\n（垂直居中）" />
+
+    <!-- 4. 在基准控件右侧，对齐底部 -->
+    <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_center"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/tv_center"
+        android:background="#FF9800"
+        android:padding="8dp"
+        android:text="基准控件右侧\n（对齐底部）"
+        android:textSize="14sp" />
+
+    <!-- 5. 在基准控件正下方，且父布局水平居中 -->
+    <TextView
+        android:id="@+id/tv_below"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_center"
+        android:layout_marginTop="15dp"
+        android:background="#E91E63"
+        android:padding="8dp"
+        android:text="基准控件下方（父布局水平居中）"
+        android:textSize="14sp" />
+
+    <!-- 6. 对齐父布局右下角 -->
+    <Button
+        android:id="@+id/btn_corner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:text="右下角按钮" />
+
+</RelativeLayout>
