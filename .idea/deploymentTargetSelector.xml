@@ -110,6 +110,9 @@
       <SelectionState runConfigName="studyscrollview">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="studyhorizontalscrollview">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>

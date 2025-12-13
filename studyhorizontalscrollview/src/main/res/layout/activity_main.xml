@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalscrollview"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scrollbars="horizontal">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:background="#e3ff67"
+                android:gravity="center"
+                android:text="子项1"
+
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:background="#7f82ff"
+                android:gravity="center"
+                android:text="子项2"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:background="#ff685b"
+                android:gravity="center"
+                android:text="子项3"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:background="#4dff86"
+                android:gravity="center"
+                android:text="子项4"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:background="#f07dff"
+                android:gravity="center"
+                android:text="子项5"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/btn_to_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="滚到最左" />
+
+    <Button
+        android:id="@+id/btn_to_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="滚到最右" />
+
+    <Button
+        android:id="@+id/btn_to_x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="滚到300px" />
+
+
+    <Button
+        android:id="@+id/btn_smooth_to_x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="平滑滚到600px" />
+
+    <Button
+        android:id="@+id/btn_to_child5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="滚到第五个子项" />
+
+</LinearLayout>
