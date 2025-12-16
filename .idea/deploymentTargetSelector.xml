@@ -122,6 +122,9 @@
       <SelectionState runConfigName="studyrecyclerviewadapter">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="studytablayout">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
