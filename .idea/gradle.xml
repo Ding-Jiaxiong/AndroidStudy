@@ -57,6 +57,7 @@
             <option value="$PROJECT_DIR$/studyview" />
             <option value="$PROJECT_DIR$/studyviewpager" />
             <option value="$PROJECT_DIR$/studyviewpager2" />
+            <option value="$PROJECT_DIR$/studywebview" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>本地网页</title>
+    <!-- 可选：加一点样式，让页面更清晰 -->
+    <style>
+        body { padding: 20px; font-size: 16px; }
+        #content { margin-top: 20px; color: #333; padding: 10px; border: 1px solid #eee; }
+    </style>
+</head>
+<body>
+<h1>Hello WebView!</h1>
+<p>这是本地HTML文件</p>
+<!-- 补充缺失的content元素 -->
+<div id="content">默认文本</div>
+<div>
+    <button onclick="callAndroidToast()">调用Android Toast</button>
+    <button onclick="callAndroidSetTitle()">调用Android设置标题</button>
+</div>
+<script>
+    // 无参方法：Android调用JS弹框
+    function showToast() {
+        alert("Android调用了JS的showToast方法");
+    }
+
+    // 有参方法：Android传参给JS，修改页面内容
+    function showMessage(msg) {
+        // 增加容错：避免元素不存在时报错
+        const content = document.getElementById("content");
+        if (content) {
+            content.innerText = msg;
+        } else {
+            console.error("未找到id为content的元素");
+        }
+    }
+
+    // 调用Android无参方法
+    function callAndroidToast() {
+        AndroidBridge.toast();
+    }
+
+    // 调用Android有参方法
+    function callAndroidSetTitle() {
+        AndroidBridge.setTitle("JS设置的标题");
+    }
+</script>
+</body>
+</html>
