@@ -25,6 +25,7 @@
             <option value="$PROJECT_DIR$/studydatepicker" />
             <option value="$PROJECT_DIR$/studydependenciesintro" />
             <option value="$PROJECT_DIR$/studyedittext" />
+            <option value="$PROJECT_DIR$/studyexpandablelistview" />
             <option value="$PROJECT_DIR$/studyframelayout" />
             <option value="$PROJECT_DIR$/studyglide" />
             <option value="$PROJECT_DIR$/studygridlayout" />
@@ -42,6 +43,7 @@
             <option value="$PROJECT_DIR$/studyrelativelayout" />
             <option value="$PROJECT_DIR$/studyrelativelayoutv2" />
             <option value="$PROJECT_DIR$/studyscrollview" />
+            <option value="$PROJECT_DIR$/studysearchview" />
             <option value="$PROJECT_DIR$/studyseekbar" />
             <option value="$PROJECT_DIR$/studysimpleadpter" />
             <option value="$PROJECT_DIR$/studyspinner" />
