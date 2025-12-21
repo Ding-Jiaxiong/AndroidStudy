@@ -152,7 +152,7 @@
       <SelectionState runConfigName="studypopupwindow">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="studymapview">
+      <SelectionState runConfigName="studyactionbar">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

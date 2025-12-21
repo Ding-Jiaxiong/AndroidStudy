@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/studyabsolutelayout" />
+            <option value="$PROJECT_DIR$/studyactionbar" />
             <option value="$PROJECT_DIR$/studyalertdialog" />
             <option value="$PROJECT_DIR$/studyandroidlog" />
             <option value="$PROJECT_DIR$/studybaseadapter" />
@@ -35,7 +36,6 @@
             <option value="$PROJECT_DIR$/studyimageview" />
             <option value="$PROJECT_DIR$/studylinearlayout" />
             <option value="$PROJECT_DIR$/studylistview" />
-            <option value="$PROJECT_DIR$/studymapview" />
             <option value="$PROJECT_DIR$/studypopupwindow" />
             <option value="$PROJECT_DIR$/studyprogressbar" />
             <option value="$PROJECT_DIR$/studyradiobutton" />
